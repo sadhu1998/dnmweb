@@ -1,0 +1,30 @@
+name: donornearme
+description: Every two seconds someone in the world needs blood. It is essential for surgeries, cancer treatment, chronic illnesses, and traumatic injuries. Whether a patient receives whole blood, red cells, platelets or plasma, this lifesaving care starts with one person making a generous donation..
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  splashscreen: 1.2.0
+  rflutter_alert: 1.0.3
+  otp_text_field: 1.0.1
+  http: 0.12.2
+  shared_preferences: ^0.5.7+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/logo.png
+    - assets/background_facts.jpg
+    - assets/bg_1.jpg
+
+  uses-material-design: true
